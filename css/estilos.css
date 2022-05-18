@@ -1,0 +1,100 @@
+@font-face {
+   font-family: 'Museo Sans Rounded';
+   src: url(../fonts/museo/MuseoSansRounded-100.woff2);
+   font-weight: normal;
+   font-style: normal;
+}
+
+body{
+    font-family: 'Museo Sans Rounded';
+}
+
+.header__logo{
+ width: 195px;
+ height: 110px;
+}
+
+.header{
+  background-color: #136C55;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.header a:link{
+   color: #FFFFFF; 
+}
+
+.header a:visited{
+   color: #FFFFFF; 
+}
+
+.header a:hover{
+    color: #6C132B; /*claret*/
+}
+
+.principal{
+    border: 2px solid #136C55;
+    background-color: #fff;
+
+}
+
+.carousel-mod{
+    background-color: #136C55;
+}
+
+@media all and (min-width: 768px){ 
+    .carousel-control-mod{
+    width: 3rem;
+    height: 3rem;
+    }
+
+}
+
+.titulos{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.subtitulos{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.assets-img{
+    max-width: 99%;
+}
+
+.btn-comprar{
+    border: 2px solid #136C55;
+    color: #136C55;
+    width: 50%;
+}
+
+.btn-comprar:hover{
+    background-color: #136C55;
+    border: 2px solid #136C55;
+}
+
+.offcanvas-mod{
+    background-color: #6C132B; /*claret*/
+    color: #fff;
+}
+
+.principal-mod{
+    background-color: #136C55;
+    color: #fff;
+
+}
+
+.mail{
+    color: #fff;
+}
+
+.mail:hover{
+    color: #6C132B;
+
+}
+
+.h-mod{
+    font-weight: bold;
+}
+
